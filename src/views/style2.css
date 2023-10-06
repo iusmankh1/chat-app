@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+.vama-desktop-signup .overlap-group {
+  position: relative;
+  width: 163px;
+  height: 119px;
+}
+
+.vama-desktop-signup .vector {
+  position: absolute;
+  width: 20px;
+  height: 23px;
+  top: 31px;
+  left: 25px;
+}
+
+.vama-desktop-signup .img {
+  position: absolute;
+  width: 16px;
+  height: 19px;
+  top: 33px;
+  left: 27px;
+}
+
+.vama-desktop-signup .vector-2 {
+  position: absolute;
+  width: 10px;
+  height: 22px;
+  top: 32px;
+  left: 43px;
+}
+
+.vama-desktop-signup .vector-3 {
+  position: absolute;
+  width: 5px;
+  height: 18px;
+  top: 34px;
+  left: 45px;
+}
+
+.vama-desktop-signup .vector-4 {
+  position: absolute;
+  width: 22px;
+  height: 23px;
+  top: 31px;
+  left: 50px;
+}
+
+.vama-desktop-signup .vector-5 {
+  position: absolute;
+  width: 18px;
+  height: 19px;
+  top: 33px;
+  left: 53px;
+}
+
+.vama-desktop-signup .vector-6 {
+  position: absolute;
+  width: 21px;
+  height: 22px;
+  top: 32px;
+  left: 70px;
+}
+
+.vama-desktop-signup .vector-7 {
+  position: absolute;
+  width: 16px;
+  height: 18px;
+  top: 34px;
+  left: 72px;
+}
+
+.vama-desktop-signup .vector-8 {
+  position: absolute;
+  width: 20px;
+  height: 23px;
+  top: 32px;
+  left: 94px;
+}
+
+.vama-desktop-signup .vector-9 {
+  position: absolute;
+  width: 16px;
+  height: 19px;
+  top: 34px;
+  left: 96px;
+}
+
+.vama-desktop-signup .vector-10 {
+  position: absolute;
+  width: 19px;
+  height: 22px;
+  top: 32px;
+  left: 113px;
+}
+
+.vama-desktop-signup .vector-11 {
+  position: absolute;
+  width: 15px;
+  height: 18px;
+  top: 34px;
+  left: 115px;
+}
+
+.vama-desktop-signup .vector-12 {
+  position: absolute;
+  width: 163px;
+  height: 86px;
+  top: 0;
+  left: 0;
+}
+
+.vama-desktop-signup .group {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  top: 65px;
+  left: 104px;
+}
+
+.text-wrapper {
+  font-family: "SF Pro-Semibold", Helvetica;
+  font-weight: 400;
+  color: #1c1c1e;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.08px;
+  line-height: normal;
+  white-space: nowrap;
+}
+.message-wrapper {
+  font-family: "SF Pro-Regular", Helvetica;
+  font-weight: 400;
+  color: #8E8E93;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: -0.04px;
+  line-height: 18px;
+}
+
+.input-base {
+  gap: 12px;
+  display: flex;
+  width: 300px;
+  height: 48px;
+  background-color: none;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #e5e5ea;
+  align-items: center;
+}
+
+input{
+  padding-left: 10px;
+}
+input:focus {
+  outline: none; /* Remove the default focus outline */
+  border: 1px solid #e5e5ea; /* Remove the border */
+}
+input::placeholder {
+    color: #aeaeb2;    /* Change the color to your desired value */
+    font-family: var(--base-regular-font-family);
+    font-weight: var(--base-regular-font-weight);
+    font-size: var(--base-regular-font-size);
+    letter-spacing: var(--base-regular-letter-spacing);
+    line-height: var(--base-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--base-regular-font-style);
+  }
+
+.btn-principals {
+  display: flex;
+  width: 300px;
+  height: 48px;
+  background-color: #a19b95;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-principals .placeholder {
+  color: white;
+}
+.error-message {
+  margin-top: 1rem;
+  color: red; 
+  font-weight: bolder;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style4.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="left-section">
+            <div class="list" style="background-color: #0071EE;">
+                <div class="chat-list">
+                    <div class="list-wrapper">
+                        <div class="chat-info-wrapper">
+                            <div class="chat-info">
+                                <div class="left-info">
+                                    <img class="img" src="https://c.animaapp.com/1IkdISFh/img/img-2.svg" />
+                                    <div class="message-info">
+                                        <div class="group-name">
+                                            <div class="text-wrapper" id="sidebar-username"></div>
+                                        </div>
+                                        <div class="name-message">
+                                            <p class="p" id="new-message"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-info">
+                                    <div class="info">
+                                        <div class="message-time">
+                                            <div class="text-wrapper-2" id="sidebar-time"></div>
+                                        </div>
+                                        <div class="not-and-pin"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fab-new-chat">
+                <img class="icon-newmessage" src="https://c.animaapp.com/1IkdISFh/img/icon-newmessage-4.svg" />
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="header">
+                <div>
+                    <img class="img" src="https://c.animaapp.com/1IkdISFh/img/img-2.svg" />
+                </div>
+                <div class="name">
+                    <span id="chat-header-username"></span>
+                </div>
+            </div>
+            <div style="padding: 20px;">
+
+                <div class="convo" id="chat-messages">
+                </div>
+                <div>
+                    <input class="send-message" type="text" name="" id="" placeholder="Message">
+                    <div class="send-button">
+                        <i class="fa fa-arrow-up fa-fw"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="../services/chat.js"></script>
+</body>
+
+</html>
